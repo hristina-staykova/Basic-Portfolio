@@ -16,10 +16,21 @@
       
     <section><h1>Contact</h1>
       <article>
-          <form action="">Name</form>
-          <form action="">Email</form>
-          <form action="">Message</form>
-          <button id="label">Submit</button>
+              <form action="action_page.php">
+                <label for="fname">Name</label>
+                <br>
+                <input type="text" id="name" name="Name" placeholder="Your name..">
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+                <br>
+                <label for="subject">Message</label>
+                <br>
+                <textarea id="message" name="message" placeholder="Write your message here.." style="height:200px"></textarea>
+                <br>
+                <input id="label" type="submit" value="Submit">
+              </form>
       </article>
     </section>
     <footer>Copyright</footer>
