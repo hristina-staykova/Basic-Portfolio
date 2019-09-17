@@ -18,10 +18,10 @@ nav {
 }
 
 h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 20px;
     color: #4aaaa5;
     margin: 0;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 header {
@@ -57,6 +57,7 @@ article {
     border-top: 3px solid #dddddd;
     padding-top: 20px;
     margin: 0;
+    font-size: 18px;
 }
 
 #name {
@@ -75,6 +76,13 @@ article {
     width: 100%;
     margin: 10px 0px 20px 0px;
     padding: 10px 0px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px; 
+    font-size: 18px;
 }
 
 p {
