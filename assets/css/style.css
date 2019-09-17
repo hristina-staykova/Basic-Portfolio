@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-#label {
+.label {
     background-color: #4aaaa5;
     color: #ffffff;
     float: left;
