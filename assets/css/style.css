@@ -46,11 +46,6 @@ section {
     min-height: calc(100vh - 40px);
 }
 
-img {
-    float: left;
-    padding: 0px 20px 20px 0px;
-}
-
 article {
     align-content: center;
     text-align: justify;
@@ -94,6 +89,24 @@ a {
     padding-right: 10px;
     border-right: 2px solid #cccccc;
     text-decoration: none;
+}
+
+.imgcontainer {
+    position: relative;
+    float: left;
+    width: 200px;
+    margin: 0px 20px 10px 0px;
+}
+
+p.label {
+    position: absolute;
+    top: 120px;
+    bottom: 20px;
+    width: 200px;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 footer {
