@@ -14,7 +14,7 @@ body {
 }
 
 nav {
-    padding: 9px;
+    padding: 29px 0px;
 }
 
 a {
@@ -33,7 +33,6 @@ header {
     text-align: right;
     background-color: #ffffff;
     border-bottom: 4px solid #cccccc;
-    padding: 0px 20px 40px 20px;
 }
 
 div {
