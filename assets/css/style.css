@@ -17,6 +17,11 @@ nav {
     padding: 9px;
 }
 
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
 h1 {
     padding: 20px;
     color: #4aaaa5;
@@ -84,11 +89,9 @@ p {
     margin: 0;
 }
 
-a {
-    color: #777777;
-    padding-right: 10px;
-    border-right: 2px solid #cccccc;
-    text-decoration: none;
+.profilepic {
+    float: left;
+    padding-right: 20px;
 }
 
 .imgcontainer {
