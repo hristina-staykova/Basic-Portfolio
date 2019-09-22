@@ -55,6 +55,7 @@ section {
     background-color: #ffffff;
     padding: 20px 40px;
     min-height: calc(100vh - 40px);
+    overflow: auto;
 }
 
 article {
